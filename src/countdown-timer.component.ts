@@ -58,7 +58,7 @@ export class CountdownTimer implements OnInit, OnDestroy{
       var days = Math.floor(milisec_diff / 1000 / 60 / (60 * 24));
       var date_diff = new Date( milisec_diff );
       var day_string = (days) ? this.twoDigit(days) + ":" : "";
-      var day_hours = days * 24;
+      //var day_hours = days * 24;
 
 
       if (this.showHours) {

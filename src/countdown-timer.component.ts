@@ -14,7 +14,6 @@ export class CountdownTimer implements OnInit, OnDestroy{
   timer: any;
   displayTime: any;
   constructor(
-    private el: ElementRef
   ) {
     this.zeroTrigger = new EventEmitter(true);
 
